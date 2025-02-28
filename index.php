@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Test</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylo.css">
 </head>
 <body>
     <div class="banner">
