@@ -2,35 +2,45 @@
     background-color : #007bc0;
     height : 60px;
     display: flex;
-    justify-content:left;
-    align-items: center;
+    flex-direction : row;
+    flex-wrap : nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width : 100%;
 }
 .d_titre{
     background-color : #007bc0;
-    object-position: 15px 0px;
-    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 140px;
-    text-align: center;
+    height: 60px; /* Assure-toi que la hauteur est bien fixée */
+    box-sizing: border-box; /* Empêche que des marges internes augmentent la taille */
+
 }
 .d_titre:hover{
     background-color : #ffffff;
     color : #007bc0;
-    object-position: 15px 0px;
 }
 .d_titre:hover .titre{
     background-color : #ffffff;
     color : #007bc0;
-    object-position: 15px 0px;
 }
 .titre{
     color : #ffffff;
     font-size : 15px;
     font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
 }
 .d_logo{
     width: 140px;
 }
 #image{
+    display : block;
     width: 100px;
     margin-left: 50%;
     transform: translateX(-50%);
